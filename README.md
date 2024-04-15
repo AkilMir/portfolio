@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Akil Mir's Personal Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This portfolio website/application was made using ReactJS. It is deployed on netlify and can be accessed at akilmir.netlify.app
 
-## Available Scripts
+## Dependencies
 
 In the project directory, you can run:
 
