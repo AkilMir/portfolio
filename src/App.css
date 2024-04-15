@@ -33,7 +33,7 @@ p {
 }
 
 .navigation-bar:hover {
-  animation: nav 0s ease-in-out;
+  animation: nav-footer 0s ease-in-out;
   opacity: 100%;
 }
 
@@ -301,6 +301,44 @@ p {
   height: 25px;
   margin-right: auto;
 }
+.footer{
+  background-color: black;
+  margin-top: 50px;
+  opacity: 75%;
+}
+.footer:hover {
+  animation: nav-footer 0s ease-in-out;
+  opacity: 100%;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.footer-line {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 2rem;
+  text-shadow: 0 0 10px #FFFFFF, 0 0 20px #FFFFFF, 0 0 30px #FFFFFF;
+}
+.back-to-home {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 2rem;
+  color: #FFFFFF;
+  padding-right: 2rem;
+}
+.back-to-home:hover {
+  animation: glow 0.5s ease-in-out infinite alternate;
+}
+
+
+
 li {
   color: white;
 }
@@ -313,7 +351,7 @@ li {
   }
 }
 
-@keyframes nav {
+@keyframes nav-footer {
   from {
     opacity: 75%;
   }

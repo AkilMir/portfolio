@@ -4,9 +4,9 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 import React, { useEffect } from "react";
 import {motion, useMotionTemplate, useMotionValue, animate} from 'framer-motion';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter} from 'react-router-dom';
 import { Element } from 'react-scroll';
 
 
@@ -29,7 +29,9 @@ const App = () => {
   return (
       <section className = "website">
         <motion.section style={{backgroundImage}}>
-          <Navbar/>
+          <Element name="nav">
+            <Navbar/>
+          </Element>
           <Home/>
           <Element name="about">
             <About/>
@@ -40,6 +42,7 @@ const App = () => {
           <Element name="projects">
             <Projects/>
           </Element>
+          <Footer/>
         </motion.section>
       </section>
   );
