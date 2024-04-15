@@ -1,6 +1,6 @@
 # Akil Mir's Personal Portfolio
 
-This portfolio website/application was made using ReactJS. It is deployed on netlify and can be accessed at akilmir.netlify.app
+This portfolio website/application was made using ReactJS. It is deployed on netlify and can be accessed at https://akilmir.netlify.app
 
 ## Dependencies
 
